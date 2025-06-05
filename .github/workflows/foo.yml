@@ -4,6 +4,6 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
-    environment: test
+    environment: foo-foo-1
     steps:
       - run: echo "test"
