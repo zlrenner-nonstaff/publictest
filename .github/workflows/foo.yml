@@ -1,5 +1,6 @@
 on:
   pull_request_target:
+  pull_request:
 
 permissions: {}
 
@@ -7,5 +8,6 @@ jobs:
   test:
     runs-on: ubuntu-latest
     environment: test
+    permissions: {}
     steps:
       - run: echo "test"
