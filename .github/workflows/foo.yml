@@ -6,4 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     environment: foo-foo-1
     steps:
-      - run: echo "${{ jobs.test.permissions }}"
+      - run: echo "$PERMS"
+        env:
+          PERMS: "${{ job.permissions }}"
