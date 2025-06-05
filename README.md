@@ -1,1 +1,2 @@
 # publictest
+fix typo
