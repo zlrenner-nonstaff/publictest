@@ -9,3 +9,4 @@ jobs:
     environment: test
     steps:
       - run: echo "test"
+      - run: echo "test2"
